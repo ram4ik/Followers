@@ -13,6 +13,8 @@
 		95921F072641C6DE005952C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95921F052641C6DE005952C5 /* LaunchScreen.storyboard */; };
 		95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F0E2641CB18005952C5 /* SearchVC.swift */; };
 		95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F102641CB52005952C5 /* FavoritesVC.swift */; };
+		95921F132641D28A005952C5 /* RIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F122641D28A005952C5 /* RIButton.swift */; };
+		95921F152641D6A4005952C5 /* RITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F142641D6A4005952C5 /* RITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95921F082641C6DE005952C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95921F0E2641CB18005952C5 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		95921F102641CB52005952C5 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		95921F122641D28A005952C5 /* RIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIButton.swift; sourceTree = "<group>"; };
+		95921F142641D6A4005952C5 /* RITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				95921F082641C6DE005952C5 /* Info.plist */,
 				95921F0E2641CB18005952C5 /* SearchVC.swift */,
 				95921F102641CB52005952C5 /* FavoritesVC.swift */,
+				95921F122641D28A005952C5 /* RIButton.swift */,
+				95921F142641D6A4005952C5 /* RITextField.swift */,
 			);
 			path = Followers;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95921F152641D6A4005952C5 /* RITextField.swift in Sources */,
 				95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */,
+				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,
 				95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */,
 				95921EFD2641C6DA005952C5 /* SceneDelegate.swift in Sources */,

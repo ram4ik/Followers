@@ -15,6 +15,7 @@
 		95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F102641CB52005952C5 /* FavoritesVC.swift */; };
 		95921F132641D28A005952C5 /* RIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F122641D28A005952C5 /* RIButton.swift */; };
 		95921F152641D6A4005952C5 /* RITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F142641D6A4005952C5 /* RITextField.swift */; };
+		95921F1726426BAB005952C5 /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F1626426BAB005952C5 /* FollowersListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95921F102641CB52005952C5 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
 		95921F122641D28A005952C5 /* RIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIButton.swift; sourceTree = "<group>"; };
 		95921F142641D6A4005952C5 /* RITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITextField.swift; sourceTree = "<group>"; };
+		95921F1626426BAB005952C5 /* FollowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				95921F102641CB52005952C5 /* FavoritesVC.swift */,
 				95921F122641D28A005952C5 /* RIButton.swift */,
 				95921F142641D6A4005952C5 /* RITextField.swift */,
+				95921F1626426BAB005952C5 /* FollowersListVC.swift */,
 			);
 			path = Followers;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95921F152641D6A4005952C5 /* RITextField.swift in Sources */,
+				95921F1726426BAB005952C5 /* FollowersListVC.swift in Sources */,
 				95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */,
 				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,

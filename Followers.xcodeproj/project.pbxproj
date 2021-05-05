@@ -20,6 +20,8 @@
 		95921F1B26427E1A005952C5 /* RIBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F1A26427E1A005952C5 /* RIBodyLabel.swift */; };
 		95921F1D26427EE3005952C5 /* RIAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F1C26427EE3005952C5 /* RIAlertVC.swift */; };
 		95921F1F2642852E005952C5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F1E2642852E005952C5 /* UIViewController+Ext.swift */; };
+		95921F27264296E2005952C5 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F26264296E2005952C5 /* Follower.swift */; };
+		95921F29264297AA005952C5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921F28264297AA005952C5 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		95921F1A26427E1A005952C5 /* RIBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBodyLabel.swift; sourceTree = "<group>"; };
 		95921F1C26427EE3005952C5 /* RIAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIAlertVC.swift; sourceTree = "<group>"; };
 		95921F1E2642852E005952C5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		95921F26264296E2005952C5 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		95921F28264297AA005952C5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		95921EF92641C6DA005952C5 /* Followers */ = {
 			isa = PBXGroup;
 			children = (
+				95921F25264296D5005952C5 /* Model */,
 				95921F24264292EC005952C5 /* Support */,
 				95921F222642925E005952C5 /* Extensions */,
 				95921F212642922C005952C5 /* CustomViews */,
@@ -118,6 +123,15 @@
 				95921F082641C6DE005952C5 /* Info.plist */,
 			);
 			name = Support;
+			sourceTree = "<group>";
+		};
+		95921F25264296D5005952C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95921F26264296E2005952C5 /* Follower.swift */,
+				95921F28264297AA005952C5 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95921F29264297AA005952C5 /* User.swift in Sources */,
 				95921F1D26427EE3005952C5 /* RIAlertVC.swift in Sources */,
 				95921F152641D6A4005952C5 /* RITextField.swift in Sources */,
 				95921F1726426BAB005952C5 /* FollowersListVC.swift in Sources */,
@@ -196,6 +211,7 @@
 				95921F1926427C0A005952C5 /* RITitleLabel.swift in Sources */,
 				95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */,
 				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
+				95921F27264296E2005952C5 /* Follower.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,
 				95921F1B26427E1A005952C5 /* RIBodyLabel.swift in Sources */,
 				95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */,

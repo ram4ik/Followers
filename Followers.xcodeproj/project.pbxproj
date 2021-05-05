@@ -70,22 +70,54 @@
 		95921EF92641C6DA005952C5 /* Followers */ = {
 			isa = PBXGroup;
 			children = (
+				95921F24264292EC005952C5 /* Support */,
+				95921F222642925E005952C5 /* Extensions */,
+				95921F212642922C005952C5 /* CustomViews */,
+				95921F20264291F7005952C5 /* Screens */,
+			);
+			path = Followers;
+			sourceTree = "<group>";
+		};
+		95921F20264291F7005952C5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				95921F1626426BAB005952C5 /* FollowersListVC.swift */,
+				95921F102641CB52005952C5 /* FavoritesVC.swift */,
+				95921F0E2641CB18005952C5 /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		95921F212642922C005952C5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				95921F1826427C0A005952C5 /* RITitleLabel.swift */,
+				95921F142641D6A4005952C5 /* RITextField.swift */,
+				95921F1C26427EE3005952C5 /* RIAlertVC.swift */,
+				95921F1A26427E1A005952C5 /* RIBodyLabel.swift */,
+				95921F122641D28A005952C5 /* RIButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		95921F222642925E005952C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95921F1E2642852E005952C5 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95921F24264292EC005952C5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				95921EFA2641C6DA005952C5 /* AppDelegate.swift */,
 				95921EFC2641C6DA005952C5 /* SceneDelegate.swift */,
 				95921F032641C6DE005952C5 /* Assets.xcassets */,
 				95921F052641C6DE005952C5 /* LaunchScreen.storyboard */,
 				95921F082641C6DE005952C5 /* Info.plist */,
-				95921F0E2641CB18005952C5 /* SearchVC.swift */,
-				95921F102641CB52005952C5 /* FavoritesVC.swift */,
-				95921F122641D28A005952C5 /* RIButton.swift */,
-				95921F142641D6A4005952C5 /* RITextField.swift */,
-				95921F1626426BAB005952C5 /* FollowersListVC.swift */,
-				95921F1826427C0A005952C5 /* RITitleLabel.swift */,
-				95921F1A26427E1A005952C5 /* RIBodyLabel.swift */,
-				95921F1C26427EE3005952C5 /* RIAlertVC.swift */,
-				95921F1E2642852E005952C5 /* UIViewController+Ext.swift */,
 			);
-			path = Followers;
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

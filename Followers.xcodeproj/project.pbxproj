@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AE726446DE6003563FB /* RIEmptyStateView.swift */; };
 		95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFA2641C6DA005952C5 /* AppDelegate.swift */; };
 		95921EFD2641C6DA005952C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFC2641C6DA005952C5 /* SceneDelegate.swift */; };
 		95921F042641C6DE005952C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921F032641C6DE005952C5 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95468AE726446DE6003563FB /* RIEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIEmptyStateView.swift; sourceTree = "<group>"; };
 		95921EF72641C6DA005952C5 /* Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Followers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921EFA2641C6DA005952C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95921EFC2641C6DA005952C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95468AE126446D18003563FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95468AE726446DE6003563FB /* RIEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95468AE226446D28003563FB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				95921F122641D28A005952C5 /* RIButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		95468AE326446D33003563FB /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				95921F142641D6A4005952C5 /* RITextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		95468AE426446D43003563FB /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				95921F332642E5FD005952C5 /* RIAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		95468AE526446D4F003563FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95921F1C26427EE3005952C5 /* RIAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		95468AE626446D7F003563FB /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				95921F1826427C0A005952C5 /* RITitleLabel.swift */,
+				95921F1A26427E1A005952C5 /* RIBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		95921EEE2641C6DA005952C5 = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +157,13 @@
 		95921F212642922C005952C5 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				95468AE626446D7F003563FB /* Labels */,
+				95468AE526446D4F003563FB /* ViewControllers */,
+				95468AE426446D43003563FB /* ImageViews */,
+				95468AE326446D33003563FB /* TextFields */,
+				95468AE226446D28003563FB /* Buttons */,
+				95468AE126446D18003563FB /* Views */,
 				95921F302642E53B005952C5 /* Cells */,
-				95921F1826427C0A005952C5 /* RITitleLabel.swift */,
-				95921F332642E5FD005952C5 /* RIAvatarImageView.swift */,
-				95921F142641D6A4005952C5 /* RITextField.swift */,
-				95921F1C26427EE3005952C5 /* RIAlertVC.swift */,
-				95921F1A26427E1A005952C5 /* RIBodyLabel.swift */,
-				95921F122641D28A005952C5 /* RIButton.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -250,6 +301,7 @@
 				95921F342642E5FD005952C5 /* RIAvatarImageView.swift in Sources */,
 				95921F2F2642A942005952C5 /* RIError.swift in Sources */,
 				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
+				95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */,
 				95921F27264296E2005952C5 /* Follower.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,
 				95921F2C26429D16005952C5 /* NetworkManager.swift in Sources */,

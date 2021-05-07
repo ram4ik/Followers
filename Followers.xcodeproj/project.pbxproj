@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AE726446DE6003563FB /* RIEmptyStateView.swift */; };
 		95468AEA26451CE2003563FB /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AE926451CE2003563FB /* UserInfoVC.swift */; };
+		95468AEC26453850003563FB /* RIUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AEB26453850003563FB /* RIUserInfoHeaderVC.swift */; };
+		95468AEF26453E57003563FB /* RIItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AEE26453E57003563FB /* RIItemInfoVC.swift */; };
+		95468AF126453E7F003563FB /* RIRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AF026453E7F003563FB /* RIRepoItemVC.swift */; };
+		95468AF326453EA7003563FB /* RIFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AF226453EA7003563FB /* RIFollowerItemVC.swift */; };
+		95468AF526453F1B003563FB /* RIItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AF426453F1B003563FB /* RIItemInfoView.swift */; };
+		95468AF726453FE3003563FB /* RISecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AF626453FE3003563FB /* RISecondaryTitleLabel.swift */; };
+		95468AF926454114003563FB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AF826454114003563FB /* Date+Ext.swift */; };
+		95468AFB2645412E003563FB /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AFA2645412E003563FB /* String+Ext.swift */; };
+		95468AFD26454247003563FB /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AFC26454247003563FB /* FavoriteCell.swift */; };
+		95468AFF264542AC003563FB /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AFE264542AC003563FB /* PersistenceManager.swift */; };
+		95468B012645431E003563FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B002645431E003563FB /* Constants.swift */; };
+		95468B0326454340003563FB /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B0226454340003563FB /* UIHelper.swift */; };
+		95468B0626454547003563FB /* RITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468B0526454547003563FB /* RITabBarController.swift */; };
 		95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFA2641C6DA005952C5 /* AppDelegate.swift */; };
 		95921EFD2641C6DA005952C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFC2641C6DA005952C5 /* SceneDelegate.swift */; };
 		95921F042641C6DE005952C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921F032641C6DE005952C5 /* Assets.xcassets */; };
@@ -33,6 +46,19 @@
 /* Begin PBXFileReference section */
 		95468AE726446DE6003563FB /* RIEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIEmptyStateView.swift; sourceTree = "<group>"; };
 		95468AE926451CE2003563FB /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		95468AEB26453850003563FB /* RIUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		95468AEE26453E57003563FB /* RIItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIItemInfoVC.swift; sourceTree = "<group>"; };
+		95468AF026453E7F003563FB /* RIRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIRepoItemVC.swift; sourceTree = "<group>"; };
+		95468AF226453EA7003563FB /* RIFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIFollowerItemVC.swift; sourceTree = "<group>"; };
+		95468AF426453F1B003563FB /* RIItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIItemInfoView.swift; sourceTree = "<group>"; };
+		95468AF626453FE3003563FB /* RISecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RISecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		95468AF826454114003563FB /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		95468AFA2645412E003563FB /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		95468AFC26454247003563FB /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		95468AFE264542AC003563FB /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		95468B002645431E003563FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95468B0226454340003563FB /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		95468B0526454547003563FB /* RITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITabBarController.swift; sourceTree = "<group>"; };
 		95921EF72641C6DA005952C5 /* Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Followers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921EFA2641C6DA005952C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95921EFC2641C6DA005952C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				95468AE726446DE6003563FB /* RIEmptyStateView.swift */,
+				95468AF426453F1B003563FB /* RIItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,7 +129,9 @@
 		95468AE526446D4F003563FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				95468AED26453E2E003563FB /* ItemInfoVCs */,
 				95921F1C26427EE3005952C5 /* RIAlertVC.swift */,
+				95468AEB26453850003563FB /* RIUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -112,8 +141,27 @@
 			children = (
 				95921F1826427C0A005952C5 /* RITitleLabel.swift */,
 				95921F1A26427E1A005952C5 /* RIBodyLabel.swift */,
+				95468AF626453FE3003563FB /* RISecondaryTitleLabel.swift */,
 			);
 			path = Labels;
+			sourceTree = "<group>";
+		};
+		95468AED26453E2E003563FB /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				95468AEE26453E57003563FB /* RIItemInfoVC.swift */,
+				95468AF026453E7F003563FB /* RIRepoItemVC.swift */,
+				95468AF226453EA7003563FB /* RIFollowerItemVC.swift */,
+			);
+			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
+		95468B042645451D003563FB /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				95468B0526454547003563FB /* RITabBarController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 		95921EEE2641C6DA005952C5 = {
@@ -160,6 +208,7 @@
 		95921F212642922C005952C5 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				95468B042645451D003563FB /* TabBarControllers */,
 				95468AE626446D7F003563FB /* Labels */,
 				95468AE526446D4F003563FB /* ViewControllers */,
 				95468AE426446D43003563FB /* ImageViews */,
@@ -175,6 +224,8 @@
 			isa = PBXGroup;
 			children = (
 				95921F1E2642852E005952C5 /* UIViewController+Ext.swift */,
+				95468AF826454114003563FB /* Date+Ext.swift */,
+				95468AFA2645412E003563FB /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -204,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				95921F2B26429D16005952C5 /* NetworkManager.swift */,
+				95468AFE264542AC003563FB /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -212,6 +264,8 @@
 			isa = PBXGroup;
 			children = (
 				95921F2E2642A942005952C5 /* RIError.swift */,
+				95468B002645431E003563FB /* Constants.swift */,
+				95468B0226454340003563FB /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -220,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				95921F312642E570005952C5 /* FollowerCell.swift */,
+				95468AFC26454247003563FB /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -293,25 +348,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95468AF526453F1B003563FB /* RIItemInfoView.swift in Sources */,
+				95468B0326454340003563FB /* UIHelper.swift in Sources */,
 				95921F29264297AA005952C5 /* User.swift in Sources */,
+				95468AEF26453E57003563FB /* RIItemInfoVC.swift in Sources */,
 				95921F1D26427EE3005952C5 /* RIAlertVC.swift in Sources */,
 				95921F152641D6A4005952C5 /* RITextField.swift in Sources */,
+				95468B012645431E003563FB /* Constants.swift in Sources */,
+				95468AEC26453850003563FB /* RIUserInfoHeaderVC.swift in Sources */,
 				95921F1726426BAB005952C5 /* FollowersListVC.swift in Sources */,
 				95921F1F2642852E005952C5 /* UIViewController+Ext.swift in Sources */,
 				95921F1926427C0A005952C5 /* RITitleLabel.swift in Sources */,
+				95468B0626454547003563FB /* RITabBarController.swift in Sources */,
+				95468AFD26454247003563FB /* FavoriteCell.swift in Sources */,
+				95468AFB2645412E003563FB /* String+Ext.swift in Sources */,
+				95468AF126453E7F003563FB /* RIRepoItemVC.swift in Sources */,
 				95921F112641CB52005952C5 /* FavoritesVC.swift in Sources */,
 				95921F322642E570005952C5 /* FollowerCell.swift in Sources */,
 				95921F342642E5FD005952C5 /* RIAvatarImageView.swift in Sources */,
 				95921F2F2642A942005952C5 /* RIError.swift in Sources */,
 				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
+				95468AF926454114003563FB /* Date+Ext.swift in Sources */,
 				95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */,
+				95468AF726453FE3003563FB /* RISecondaryTitleLabel.swift in Sources */,
 				95921F27264296E2005952C5 /* Follower.swift in Sources */,
 				95468AEA26451CE2003563FB /* UserInfoVC.swift in Sources */,
+				95468AFF264542AC003563FB /* PersistenceManager.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,
 				95921F2C26429D16005952C5 /* NetworkManager.swift in Sources */,
 				95921F1B26427E1A005952C5 /* RIBodyLabel.swift in Sources */,
 				95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */,
 				95921EFD2641C6DA005952C5 /* SceneDelegate.swift in Sources */,
+				95468AF326453EA7003563FB /* RIFollowerItemVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

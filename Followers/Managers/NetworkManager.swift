@@ -18,7 +18,7 @@ class NetworkManager {
         let endpoint = baseUrl + "\(username)/followers?per_page=100&page=\(page)"
         
         guard let url = URL(string: endpoint) else {
-            completed(.failure(.invalidUserName))
+            completed(.failure(.invalidUsername))
             return
         }
         
@@ -53,7 +53,7 @@ class NetworkManager {
         let endpoint = baseUrl + "\(username)"
         
         guard let url = URL(string: endpoint) else {
-            completed(.failure(.invalidUserName))
+            completed(.failure(.invalidUsername))
             return
         }
         

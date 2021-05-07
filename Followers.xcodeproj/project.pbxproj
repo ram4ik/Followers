@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AE726446DE6003563FB /* RIEmptyStateView.swift */; };
+		95468AEA26451CE2003563FB /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95468AE926451CE2003563FB /* UserInfoVC.swift */; };
 		95921EFB2641C6DA005952C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFA2641C6DA005952C5 /* AppDelegate.swift */; };
 		95921EFD2641C6DA005952C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95921EFC2641C6DA005952C5 /* SceneDelegate.swift */; };
 		95921F042641C6DE005952C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95921F032641C6DE005952C5 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		95468AE726446DE6003563FB /* RIEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIEmptyStateView.swift; sourceTree = "<group>"; };
+		95468AE926451CE2003563FB /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		95921EF72641C6DA005952C5 /* Followers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Followers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95921EFA2641C6DA005952C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95921EFC2641C6DA005952C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				95921F1626426BAB005952C5 /* FollowersListVC.swift */,
 				95921F102641CB52005952C5 /* FavoritesVC.swift */,
 				95921F0E2641CB18005952C5 /* SearchVC.swift */,
+				95468AE926451CE2003563FB /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				95921F132641D28A005952C5 /* RIButton.swift in Sources */,
 				95468AE826446DE6003563FB /* RIEmptyStateView.swift in Sources */,
 				95921F27264296E2005952C5 /* Follower.swift in Sources */,
+				95468AEA26451CE2003563FB /* UserInfoVC.swift in Sources */,
 				95921F0F2641CB18005952C5 /* SearchVC.swift in Sources */,
 				95921F2C26429D16005952C5 /* NetworkManager.swift in Sources */,
 				95921F1B26427E1A005952C5 /* RIBodyLabel.swift in Sources */,
